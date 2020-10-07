@@ -26,14 +26,16 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <style>
-	  .container2{
-			color: #fff;
-			width: 100%;
-			left: 50%;
-			background: rgba(0,0,0,0.7);
-			transform: translate(-50%,-50%);
-			text-align: center;
-		}
+	.timerbox{
+		color: #fff;
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		background: rgba(0,0,0,0.7);
+		transform: translate(-50%,-50%);
+		text-align: center;
+  	}
     	.count{
 			margin: 40px;
 		}
@@ -139,10 +141,10 @@
             <p>28<sup>th</sup> - 30<sup>th</sup> December, 2020 </p>
           </div>
         </div>
-      </div>
+      
 	    <br><hr>
-      <div class="container2"><!-- container -->
-        <p class="top">Coming Soon !!!</p>
+      <div class="timerbox"><!-- container -->
+        <p class="top">Registraion !!!</p>
         <div class="count"><!-- count -->
     
           <div class="counts"><!-- counts -->
@@ -161,7 +163,9 @@
           </div><!-- counts -->
     
         </div><!-- count -->
-      </div><!-- container -->
+      </div><!-- timer box -->
+</div><!-- container -->
+	      
     </section><!-- End About Section -->
 
     <!-- ======= Speakers Section ======= -->
@@ -1197,7 +1201,7 @@
        });
       </script>
 <script type="text/javascript">
-	var count = new Date("dec 31,2020 00:00:00").getTime();
+	var count = new Date("dec 26,2020 00:00:00").getTime();
 	var a = setInterval(function (){
 		var now = new Date().getTime();
 		var b = count - now;
