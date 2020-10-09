@@ -571,8 +571,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 56px;
   font-weight: 600;
   /* text-transform: uppercase; */
+  text-transform: uppercase;
+}
+
+#intro h2 span {
+  color:#f82249;
+  /* text-transform: uppercase; */
   text-transform: capitalize;
 }
+
+
 
 #intro h1 span {
   color: #f82249;
@@ -715,7 +723,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("../img/scienceblock.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -827,7 +835,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details .social {
-  height: 30px;
+  height: 50px;
 }
 
 #speakers .speaker .details a {
