@@ -822,14 +822,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers .speaker .details h3 {
   color: #fff;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 300;
   margin-bottom: 5px;
 }
 
 #speakers .speaker .details p {
   color: #fff;
-  font-size: 15px;
+  font-size: 12px;
   margin-bottom: 10px;
   font-style: italic;
 }
@@ -891,7 +891,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   margin-bottom: 10px;
 }
-
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
