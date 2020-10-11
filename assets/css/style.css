@@ -823,7 +823,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #speakers .speaker .details h3 {
   color: #fff;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: bold;
   margin-bottom: 5px;
 }
 
@@ -857,7 +857,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #speakers-details .details h2 {
   color: #112363;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
