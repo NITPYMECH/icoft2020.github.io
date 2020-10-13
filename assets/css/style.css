@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-with-bg {
-  color: rgb(2, 9, 32) 41, 133);
+  color: rgb((2, 9, 32) 41, 133);
   background: linear-gradient(-45deg, skyblue, royalblue, orange, red );
   background-size: 500% 400%;
   animation: change 5s ease-in-out infinite;
@@ -568,7 +568,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   /* text-transform: uppercase; */
   text-transform: uppercase;
