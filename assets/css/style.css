@@ -556,7 +556,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 0 15px 15px 15px;
+  padding: 0 15px 40px 15px;
 }
 
 @media (max-width: 991px) {
@@ -568,7 +568,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-size: 48px;
   font-weight: 600;
   /* text-transform: uppercase; */
   text-transform: uppercase;
