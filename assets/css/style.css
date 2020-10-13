@@ -796,6 +796,39 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
+#committees .grid-container3 {
+  display: grid;
+  height: 75px;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+  background-color:whitesmoke;
+  padding: 5px;
+} 
+#committees .grid-container3 > h1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0 20px 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  color: darkblue;
+}
+#committees .grid-container2 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 5px;
+    background-color: white;
+    padding: 5px;
+  }
+
+  #committees .grid-container2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0 20px 20px;
+    font-size: 14px;
+    font-weight: 550;
+  }
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
@@ -891,6 +924,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
+
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
