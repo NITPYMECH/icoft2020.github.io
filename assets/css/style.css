@@ -1167,6 +1167,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #152b79;
   margin-bottom: 0;
 }
+
+#call .grid-container2 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-gap: 5px;
+  justify-content: center;
+  align-content: center;
+  background-color: darkblue;
+  padding: 5px;
+}
+
+#call .grid-container2 > div {
+  background-color: rgb(98, 84, 196);
+  padding: 20px 0 20px 20px;
+  font-size: 14px;
+  font-weight: 550;
+}
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
