@@ -839,7 +839,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #speakers .speaker {
   position: relative;
   /*overflow: hidden;*/
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 #speakers .speaker .details {
