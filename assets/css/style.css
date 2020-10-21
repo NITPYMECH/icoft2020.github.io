@@ -879,9 +879,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #f82249;
 }
 
-#speakers .speaker:hover .details {
+/*#speakers .speaker:hover .details {
   bottom: 0;
-}
+}*/
 
 #speakers-details {
   padding: 60px 0;
