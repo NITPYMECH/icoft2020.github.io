@@ -1982,5 +1982,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+div.wrap {
+    width: 600px;
+    border: 1px solid #f00;
+    height: 300px;
+    position: relative;
+}
 
+.wrap img {
+    border: 1px solid blue;
+     position: absolute;
+    bottom: 0;
+}
+
+.wrap img:nth-of-type(1) {
+    left: 0;
+}
+
+.wrap img:nth-of-type(2) {
+    right: 0;
+}
 
