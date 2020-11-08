@@ -574,13 +574,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
-#intro h2 {
-  font-size: 24px;
-}
 
 #intro h2 span {
   color:#f82249;
-  font-size: 24px;
   /* text-transform: uppercase; */
   text-transform: capitalize;
 }
